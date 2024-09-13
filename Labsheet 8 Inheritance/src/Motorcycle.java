@@ -1,8 +1,10 @@
-public class Motocycle extends Vehicle{
+public class Motorcycle extends Vehicle{
 
-    public Motocycle(String brand, int year) {
+    public Motorcycle(String brand, int year) {
         super(brand, year);
     }
 
-    
+    public void wheelie(){
+        System.out.println("Popping a wheelie on the "+ getYear()+ " " + getBrand() + " Motorcycle.");
+    }
 }
