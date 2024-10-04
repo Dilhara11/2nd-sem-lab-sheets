@@ -11,15 +11,15 @@ public class Calculator {
     public int add(int[] numbers){
         int sum = 0;
 
-        for(int i = 0; i< numbers.length; i++){
-            sum += numbers[i];
-        }
-
-        //use of for each method
-
-//        for(int i: numbers){
+//        for(int i = 0; i< numbers.length; i++){
 //            sum += numbers[i];
 //        }
+
+//        use of for each method
+
+        for(int number: numbers){
+            sum += number;
+        }
 
         return sum;
     }
