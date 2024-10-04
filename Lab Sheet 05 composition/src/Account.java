@@ -1,6 +1,6 @@
 public class Account {
-    private int accNo;
-    private Customer customer;
+    private final int accNo;
+    private final Customer customer;
     private double balance;
 
     public Account(int accNo, Customer customer) {

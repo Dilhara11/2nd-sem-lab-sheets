@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class StudentMember {
+public class StudentMember extends Member{
+    private String borrowedbook;
 }

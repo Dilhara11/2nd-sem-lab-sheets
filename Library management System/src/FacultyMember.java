@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class FacultyMember {
+public class FacultyMember extends Member{
+    private String[] borrowedBokks;
 }
