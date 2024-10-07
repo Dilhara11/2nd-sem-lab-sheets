@@ -5,12 +5,14 @@ public class Departments {
 }
 
 class ComputerScience extends Departments{
+    @Override
     public void display(){
         System.out.println("Teaching Computer Science.");
     }
 }
 
 class ComputerEngineering extends Departments{
+    @Override
     public void display(){
         System.out.println("Teaching Computer Engineering");
     }
